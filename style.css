@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin:  auto;
+    margin-top: 40px;
+}
+.section-padding{
+    padding:  50px;
+    margin:  30px;
+}
+.title{
+    text-align: center;
+    font-size: 30px;
+    margin: 30px;
+    padding: 30px;
+
+}
+.key{
+    max-width: 500px;
+    margin: auto;
+    margin-bottom:  40px;
+    margin-top: 20px;
+}
+
+.timur{
+    font-size: 33px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+p{
+    font-size: 18px;
+    margin: 20px;
+}
+.parents {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    gap: 8px;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+.div01 {
+    grid-column: span 6 / span 6;
+    grid-row: span 3 / span 3;
+    background-color: #B7DCFF;
+    height: 250px;
+    border-radius: 15px;
+
+    h2{
+        margin: 15px;
+        margin-top: 30px;
+        color:#0084FF ;
+    }
+    p{
+        color: #3297DE;
+    }
+}
+
+.div02 {
+    grid-column: span 3 / span 3;
+    grid-row: span 3 / span 3;
+    grid-column-start: 7;
+    background-color:#C9EFDA;
+    height: 250px;
+    border-radius: 15px;
+
+
+    h2{
+        color: #54C788;
+
+    }
+
+    p{
+        color: #529671;
+    }
+}
+
+.div03 {
+    grid-column: span 3 / span 3;
+    grid-row: span 3 / span 3;
+    grid-row-start: 4;
+    background-color:#FFD2D2;
+    height: 250px;
+    border-radius: 15px;
+
+    h2{
+        color: #FF8A8A;
+    }
+
+    p{
+        color: #AB5D5D;
+    }
+}
+
+.div04 {
+    grid-column: span 3 / span 3;
+    grid-row: span 3 / span 3;
+    grid-column-start: 4;
+    grid-row-start: 4;
+    background-color:#FFE7C4;
+    height: 250px;
+    border-radius: 15px;
+
+    h2{
+        color: #FFC166;
+    }
+
+    p{
+        color: #A68454;
+    }
+}
+
+.div05 {
+    grid-column: span 3 / span 3;
+    grid-row: span 3 / span 3;
+    grid-column-start: 7;
+    grid-row-start: 4;
+    background-color:#D5D3F5;
+    height: 250px;
+    border-radius: 15px;
+
+    h2{
+        color: #9693E6;
+    }
+    p{
+        color: #676597;
+    }
+}
